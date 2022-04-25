@@ -2,7 +2,7 @@ import { useState } from "react";
 
 // sem conceito de imutabilidade:
 // users = ['dani', 'vitoria']
-// users.push('paola)
+// users.push('paola')
 
 // com conceito de imutabilidade:
 // newUsers = [...users, 'paola']
