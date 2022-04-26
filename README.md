@@ -21,7 +21,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [x] Conceitos importantes
 - [x] Chamadas HTTP
 - [x] Usando TypeScript
-- [ ] Projeto Finalizado
+- [x] Projeto Finalizado
 
 ## 💻 Tecnologias
 
