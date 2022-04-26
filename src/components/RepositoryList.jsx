@@ -1,11 +1,6 @@
 import { useState, useEffect } from "react";
 import { RepositoryItem } from "./RepositoryItem";
 // https://api.github.com/users/danielafarias/repos
-const repository = {
-  name: "repository",
-  description: "Forms in React",
-  link: "https://github.com",
-};
 
 export function RepositoryList() {
 
@@ -22,10 +17,10 @@ export function RepositoryList() {
       <h1>Lista de repositórios</h1>
 
       <ul>
-        <RepositoryItem repository={repository} />
-        <RepositoryItem repository={repository} />
-        <RepositoryItem repository={repository} />
-        <RepositoryItem repository={repository} />
+        {repositories.map(repository => {
+          return <RepositoryItem repository={repository} key={repository.name} />
+          } 
+        )}
       </ul>
     </section>
   );
