@@ -20,7 +20,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [x] Configurando ambiente
 - [x] Conceitos importantes
 - [x] Chamadas HTTP
-- [ ] Usando TypeScript
+- [x] Usando TypeScript
 - [ ] Projeto Finalizado
 
 ## 💻 Tecnologias
